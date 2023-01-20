@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { Configuration, OpenAIApi } from 'openai'
 
 const App = () => {
-    const VITE_Open_AI_Key = `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`
+    const VITE_Open_AI_Key = `put your openai API key here `
     const [prompt, setprompt] = useState("")
     const [result, setresult] = useState('')
     //initialise a configuration managemnet variable
